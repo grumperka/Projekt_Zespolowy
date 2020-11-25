@@ -45,7 +45,7 @@ namespace Projekt_Zespolowy.Controllers
                 }
             }
 
-            return new JsonResult(table);
+            return new JsonResult(table);  //DZIAŁA!!!
         }
     }
 }
